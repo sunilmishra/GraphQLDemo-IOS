@@ -7,3 +7,6 @@ It allows you to execute queries and mutations against a GraphQL server, and ret
 # How to configure graphQL
 https://www.apollographql.com/docs/ios/installation.html
 
+
+https://github.com/sunilmishra/GraphQLDemo-IOS/blob/master/appolo-ios.png
+
