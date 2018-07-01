@@ -11,7 +11,8 @@ import Apollo
 
 class ViewController: UITableViewController {
     
-    private let apollo = ApolloClient(url: URL(string: "http://10.0.0.52:8080/graphql")!)
+    //you can add your ip address if localhost not work.
+    private let apollo = ApolloClient(url: URL(string: "http://localhost:8080/graphql")!)
     
     private var allMessageList = [MessageQueryQuery.Data.AllMessage]()
     
