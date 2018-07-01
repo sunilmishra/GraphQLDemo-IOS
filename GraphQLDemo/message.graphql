@@ -1,0 +1,18 @@
+query MessageQuery{
+  allMessage {
+    id
+    subject
+    description
+    category
+    sender {
+        email
+        firstName
+        lastName
+    }
+  }
+}
+
+mutation MessageCreator($subject:String!, $description:String!, $category:String, $senderEmail:String){
+createMessage(subject:$subject, description:$description, category:$category, senderEmail:$senderEmail)
+}
+
